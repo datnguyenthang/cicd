@@ -105,6 +105,7 @@ function App() {
   return (
     <>
       <Header />
+      <h1>CICD TEST</h1>
       <Routes>
         <Route path="/" element={<Tasks
           loading={loading}
